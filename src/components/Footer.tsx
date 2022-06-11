@@ -31,17 +31,17 @@ const Footer: React.FC = () => {
       <F.Text
         data-v2="footer"
         theme={theme}
-        aria-label="Designed and built by Adam Alston"
+        aria-label=""
       >
-        {'Designed and built by '}
+        {' '}
         <F.Link
           data-v2="creator"
           theme={theme}
-          href="https://www.adamalston.com"
-          aria-label="Adam's website"
-          title="A link to Adam's personal website"
+          href="https://gimoolycontest.vercel.app/"
+          aria-label="GIMO website"
+          title="Math Olympiad Online Contest"
         >
-          {'Adam Alston'}
+          {}
         </F.Link>
         {!isMobile && (
           <>
@@ -49,11 +49,11 @@ const Footer: React.FC = () => {
             <F.Link
               data-v2="source"
               theme={theme}
-              href="https://github.com/adamalston/v2/"
+              href="https://gimoolycontest.vercel.app/"
               aria-label="Source code"
-              title="View this website's source code in GitHub"
+              title=""
             >
-              {'Source'}
+              {}
             </F.Link>
           </>
         )}
