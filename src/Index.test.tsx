@@ -59,10 +59,10 @@ describe('application tests', () => {
     checkContent(element, /^Adam Alston$/);
   });
 
-  it('should render title: Software Engineer', () => {
+  it('should render title: Online Math Contest', () => {
     const element = screen.getByTestId('title');
 
-    checkContent(element, /^Software Engineer$/);
+    checkContent(element, /^Online Math Contest$/);
   });
 
   it('should render creator', () => {
